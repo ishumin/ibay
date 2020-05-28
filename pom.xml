@@ -19,6 +19,7 @@
     <modules>
         <module>micro-server</module>
         <module>micro-services</module>
+        <module>common</module>
     </modules>
 
     <properties>
