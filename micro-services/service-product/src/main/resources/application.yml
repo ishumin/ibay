@@ -1,0 +1,14 @@
+server:
+  port: 1010
+
+spring:
+  application:
+    name: product-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+

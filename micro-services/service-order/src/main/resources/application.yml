@@ -1,0 +1,14 @@
+server:
+  port: 1012
+
+spring:
+  application:
+    name: order-service
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
